@@ -6,7 +6,7 @@ var guapo;
 
 class Persona{
      constructor(nombre,edad,valor,guapo){
-         this.nombre = nombre;
+         this.nombre = nombre; 
          this.edad = edad;
          this.valor = valor;
          this.guapo = guapo;
@@ -23,3 +23,6 @@ class Persona{
 const Araoz = new Persona("Gonzalo", 18, true, true);
 Araoz.interpretar();
 //esperemos que esto funcione :)
+
+
+ 
